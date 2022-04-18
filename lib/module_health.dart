@@ -1,4 +1,4 @@
-library module_health_empty;
+library module_health;
 
 class HealthService {
   HealthService._privateConstructor();

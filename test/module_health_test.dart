@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:module_health_empty/module_health_empty.dart';
+import 'package:module_health/module_health.dart';
 
 void main() {
   test('getHealthData is empty', () async {
