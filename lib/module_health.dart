@@ -1,5 +1,8 @@
 library module_health;
 
+import 'data_types.dart';
+import 'health_data_point.dart';
+
 class HealthService {
   HealthService._privateConstructor();
 
@@ -26,18 +29,4 @@ class HealthService {
   Future<void> revokePermission() async {
     return;
   }
-}
-
-enum HealthDataType { STEPS }
-
-// lib_core側で参照するのに必要最低限の実装にする
-class HealthDataPoint {
-  num _value;
-  DateTime _dateFrom;
-  HealthDataPoint(this._value, this._dateFrom);
-
-  num get value => _value;
-
-  /// The start of the time interval
-  DateTime get dateFrom => _dateFrom;
 }

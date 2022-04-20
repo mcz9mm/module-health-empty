@@ -1,4 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:module_health/data_types.dart';
 import 'package:module_health/module_health.dart';
 
 void main() {
